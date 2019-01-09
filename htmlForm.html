@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>html Form</title>
+</head>
+<body>
+        <form action="https://www.google.com" >
+            <P>Username:  </p>
+                <input type="text" name="username" placeholder="username" size="15" maxlength="50">
+            
+                <p> Password </P>
+            <input type="password" name="password" size="15" maxlength="30" placeholder="password">
+            <p>Write a review</p>
+            <textarea name="comment" id="" cols="30" rows="10" > </textarea>
+                <h1> Radio button allow a user to pick just one option </h1>
+                       
+                            <p>Please select your favorite genre:
+                            <br />
+                            <input type="radio" name="genre" value="rock"
+                            checked="checked" /> Rock
+                            <input type="radio" name="genre" value="pop" />
+                            Pop
+                            <input type="radio" name="genre" value="jazz" />
+                            Jazz
+                            </p>
+               
+            <h1> checked button allow a user to pick more than one option </h1>
+                    <p>Please select your favorite music service(s):
+                    <br />
+                    <input type="checkbox" name="service"
+                    value="itunes" checked="checked" /> iTunes
+                    <input type="checkbox" name="service"
+                    value="lastfm" /> Last.fm
+                    <input type="checkbox" name="service"
+                    value="spotify" /> Spotify
+                    </p>
+                  
+             <h1> drop-down list allow a user to pick  one option. similar to radio button </h1>
+             <P> choose</P>
+             <select name="devices">
+                 <option value=" ipod">iPod</option>
+                 <option value="radio">Radio</option>
+                 <option value="computer">Computer</option>
+                </select>
+                 <hr>
+
+                 <h1>Multiple Select Box  </h1>
+             <P> choose more than one</P>
+             <select name="devices" size="3" multiple="multiple">
+                 <option value=" ipod">iPod</option>
+                 <option value="radio">Radio</option>
+                 <option value="computer">Computer</option>
+
+            </select>
+
+        <u> <h1> uploading file eg document,picture video,video. the form method should be post </h1>
+            <li>
+                <form action="http://www.example.com/upload.php"
+                method="post">
+                <p>Upload your image:</p>
+                <input type="file" name="user-song" /><br />
+                <input type="submit" value="Upload"/>
+
+                <h1> Form Validation</h1>
+                <label for="username">Username:</label>
+                <input type="text" name="username"
+                required="required" /></title><br />
+                <label for="password">Password:</label>
+                <input type="password" name="password"
+                required="required" />
+                <input type="submit" value="Submit" />
+
+                     <h1> date</h1>
+                     <label for="username">Departure date:</label>
+                     <input type="date" name="depart" />
+                     <input type="submit" value="Submit" />
+
+                </form>
+            </li>
+        </u>
+
+            
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe"
+        value="Subscribe" />
+        <hr>
+       
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image" src="//unsplash.it/870/790"
+        width="100" height="20" />
+
+        <hr>
+        <h1> this is the hidden and button control</h1>
+        <button><img src="//unsplash.it/870/79" alt="add"
+            width="10" height="10" /> Add</button>
+            <input type="hidden" name="bookmark"
+            value="lyrics" />
+      
+
+    <figure>
+            <h1> Nature</h1>
+            <img src="//unsplash.it/870/990" title="unsplash photos" height="10%" width="10%" >
+    
+    </figure>
+ 
+    <h1> Grouping form</h1>
+    <fieldset>
+        <legend>Contact details</legend>
+        <label>Email:<br />
+        <input type="text" name="email" /></label><br />
+        <label>Mobile:<br />
+        <input type="text" name="mobile" /></label><br />
+        <label>Telephone:<br />
+        <input type="text" name="telephone" /></label>
+        </fieldset>
+    
+
+        <h1>Search:</h1>
+        <input type="search" name="search"
+        placeholder="Enter keyword" />
+        <input type="submit" value="Search" />
+</form>
+   
+ 
+    </body>
+</html>
